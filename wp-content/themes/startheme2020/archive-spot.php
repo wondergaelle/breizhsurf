@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying archive-spot pages
+ * The template for displaying archive pages
  *
  *
  * @package WordPress
@@ -12,38 +12,52 @@
 get_header();
 ?>
 
-<main>
+    <main>
 
-  <?php if (have_posts()) : ?>
+        <?php if (have_posts()) : ?>
 
-    <section class="archive-section container py-5">
+            <section class="archive-section">
 
-      <h1 class="page-title"><?php the_archive_title(); ?></h1>
+                <header class="main-header py-5">
 
-      <div class="row">
+                    <div class="container">
 
-        <?php while (have_posts()) : the_post(); ?>
+                        <h1 class="page-title"><?php the_archive_title(); ?></h1>
 
-          <div class="col-md-6 col-lg-4 my-3">
+                    </div>
 
-            <?php get_template_part( 'template-parts/content-archive', get_post_type() ); ?>
+                </header>
 
-          </div>
+                <div class="container py-5">
 
-        <?php endwhile; ?>
+                 <div class="row no-gutters mb-5"> <!--   pas de goutieres -->
 
-      </div><!-- .row -->
+                        <?php while (have_posts()) : the_post(); ?>
 
-      <?php the_posts_pagination(); ?>
-    
-    </section>
+                            <div class="col-md-6 col-lg-4">
 
-  <?php else : ?>
+                                <?php get_template_part( 'template-parts/content-archive', get_post_type() ); ?>
 
-    <?php get_template_part( 'template-parts/content', 'none' ); ?>
-    
-  <?php endif; ?>
+                            </div>
 
-</main>
+                        <?php endwhile; ?>
+
+                    </div><!-- .row -->
+
+                    <?php the_posts_pagination(); ?>
+
+                </div><!-- .container -->
+
+            </section>
+
+        <?php else : ?>
+
+            <?php get_template_part( 'template-parts/content', 'none' ); ?>
+
+        <?php endif; ?>
+
+    </main>
+
+<?php get_sidebar('lastnews') ?>
 
 <?php get_footer() ?>

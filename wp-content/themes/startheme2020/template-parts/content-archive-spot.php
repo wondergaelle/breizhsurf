@@ -1,7 +1,6 @@
 <?php
-
 /**
- * Template part for displaying posts
+ * Template part for displaying spots in archive pages
  *
  *
  * @package WordPress
@@ -11,28 +10,13 @@
 
 ?>
 
-<article <?php post_class(); ?>>
+<article <?php post_class('card-spot'); ?>>
 
-  <div class="container py-5">
-
-    <h1 class="page-title entry-title"><?php the_title(); ?></h1>
-
-    <div class="row justify-content-center">
-
-      <div class="col-md-8">
-        <div class="entry-content">
-          <?php the_content(); ?>
-        </div>
-      </div>
-
-      <?php if (has_post_thumbnail()) : ?>
-        <div class="col">
-          <?php the_post_thumbnail('large', array('class' => 'img-fluid')); ?>
-        </div>
-      <?php endif; ?>
-
-    </div><!-- .row -->
-
-  </div><!-- .container -->
+    <figure class="card-figure mb-0">
+        <a href="<?php the_permalink(); ?>" title="<?php _e( 'Lire la suite', 'startheme' ) ?>">
+            <?php the_post_thumbnail('thumb-medium', array('class'=>'img-fluid')); ?>
+            <h2 class="entry-title"><?php the_title(); ?></h2>
+        </a>
+    </figure>
 
 </article>
