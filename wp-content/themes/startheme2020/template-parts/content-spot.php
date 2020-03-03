@@ -8,31 +8,50 @@
  * @subpackage Startheme
  * @since 1.0.0
  */
+$niveau = get_field_object('niveau');
 
 ?>
 
 <article <?php post_class(); ?>>
 
-  <div class="container py-5">
+    <header class="entry-header main-header py-5"
+            style="background-image: url(<?php the_post_thumbnail_url('thumb-large') ?>)">
 
-    <h1 class="page-title entry-title"><?php the_title(); ?></h1>
+        <div class="container">
 
-    <div class="row justify-content-center">
+            <h1 class="page-title entry-title"><?php the_title(); ?></h1>
 
-      <div class="col-md-8">
-        <div class="entry-content">
-          <?php the_content(); ?>
         </div>
-      </div>
 
-      <?php if (has_post_thumbnail()) : ?>
-        <div class="col">
-          <?php the_post_thumbnail('large', array('class' => 'img-fluid')); ?>
-        </div>
-      <?php endif; ?>
+    </header>
 
-    </div><!-- .row -->
+    <div class="spot-content bg-light py-5">
 
-  </div><!-- .container -->
+        <div class="container">
+            <div class="row">
+                <div class="entry-content col-md-8 col-lg-10">
+                    <?php the_content() ?>
+                </div> <!--  entry-content-->
+                <div class="spot-niveau col-md4 col-lg-2">
+                    <div class="bg-white p-4 text-center">
+                        <h3><?php echo $niveau['label'] ?></h3>
+                        <?php foreach ($niveau['choices'] as $key => $choice): ?>
+                            <?php if ($key <= $niveau['value']) : ?>
+
+                                <img src="<?= get_template_directory_uri() . '/dist/images/planche-1.svg'; ?>"
+                                     alt="<?= $choice; ?>"
+                                     title="<?= $choice; ?>">
+                            <?php else : ?>
+                                <img src="<?= get_template_directory_uri() . '/dist/images/planche-2.svg'; ?>"
+                                     alt="<?= $choice; ?>"
+                                     title="<?= $choice; ?>">
+                            <?php endif; ?>
+
+                        <?php endforeach; ?>
+                    </div> <!--  bg-white-->
+                </div><!--  spot-niveau-->
+            </div>
+        </div><!--  container-->
+    </div>
 
 </article>
