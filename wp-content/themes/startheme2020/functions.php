@@ -104,3 +104,27 @@ add_filter('get_the_archive_title', function ($title) {
     }
     return $title;
 });
+
+/**
+ * Filter main query for spots archive page
+ */
+
+add_action( 'pre_get_posts', function ($query){
+
+    if( is_admin() ) return;
+    if( !$query->is_main_query() )return;
+
+    if ( is_post_type_archive('spot') && isset($_GET['niveau'])) {
+        $query->set( 'meta_key', 'niveau' );
+        $query->set( 'meta_query', array(
+            array(
+                'key'     => 'niveau',
+                'compare' => 'IN',
+                'value'   => $_GET['niveau']
+            )
+        ) );
+    }
+
+    return;
+
+} );
