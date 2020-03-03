@@ -57,23 +57,27 @@ $longitude = get_field('longitude');
         <div class="spot-info my-5">
             <h2><?= $infos['label']; ?></h2>
             <?= $infos['value']; ?>
-        </div>
+        </div><!--  .spot-infos-->
 
         <div class="spot-acces my-5">
             <h2><?= $acces['label']; ?></h2>
             <div class="spot-acces_content">
-                <div class="spot-carte"></div>
-                <div class="bg-light-4">
+                <div class="spot-carte">
+                    <div id="spotMap"
+                         data-latitude="<?= $latitude ?>"
+                         data-longitude="<?= $longitude ?>"
+                         data-title="<?php esc_attr(the_title()) ?>"></div>
+                </div>
+
+                <div class="bg-light p-4">
                     <?= $acces['value']; ?>
                     <div class="spot-gps">
                         <h3>GPS</h3>
                         <P><?= $latitude; ?>,<?= $longitude; ?></P>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
+                    </div><!--  .spot-gps-->
+                </div><!--  .bg-light-->
+            </div><!--  .spot-acces-content-->
+        </div><!--  .spot-info-->
+    </div><!--  .container-->
 
 </article>
