@@ -3,22 +3,14 @@
  * The last posts sidebar displayed before footer
  * @package startheme
  */
-
+$exclude = is_front_page() ? get_option( 'sticky_posts' ) : [get_the_ID()];
 $lastnews = get_posts(array(
     'numberposts' => 5,
     'category_name' => 'actualite',
-    'orderby' => 'rand'
+    'orderby' => 'rand',
+    'exclude'=> $exclude
 
 ));
-
-if ($lastnews):
-    foreach ($lastnews as $post) :
-        setup_postdata($post); ?>
-        <div><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
-    <?php
-    endforeach;
-    wp_reset_postdata();
-endif;
 ?>
 
 <section class="sidebar-lastnews bg-light py-5">
@@ -27,7 +19,7 @@ endif;
             <h2 class="sidebar-title">
                 <?php _e('Dernières actualités', 'startheme') ?>
             </h2>
-            <a href="#" class="btn btn-outline-primary">
+            <a href="<?= get_category_link(8) ?>" class="btn btn-outline-primary">
                 <?php _e('Toutes les actualités', 'startheme') ?>
             </a>
         </header>
