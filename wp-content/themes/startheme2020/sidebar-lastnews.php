@@ -44,8 +44,6 @@ $lastnews = get_posts(array(
                             </h3>
                             <?php the_excerpt() ?>
                         </div>
-
-                        <?php the_title(); ?>
                     </article>
                 <?php endforeach;
                 wp_reset_postdata() ?>

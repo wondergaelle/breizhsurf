@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="61b3c4be-c6fd-4cba-ae2c-5ffd76e8d9e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/startheme2020/archive-spot.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/startheme2020/archive-spot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/startheme2020/dist/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/startheme2020/dist/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/startheme2020/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/startheme2020/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/startheme2020/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/startheme2020/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/startheme2020/sidebar-lastnews.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/startheme2020/sidebar-lastnews.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +35,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/archive-spot.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
-              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/front-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1943">
+              <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/sidebar-lastnews.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -50,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="387">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <element signature="e#0#6#0" expanded="true" />
@@ -61,10 +76,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/singular.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="e#6#151#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="78" lean-forward="true" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+            <state relative-caret-position="-398">
+              <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
               <folding>
                 <element signature="e#0#8#0" expanded="true" />
               </folding>
@@ -97,11 +124,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/sidebar-spots.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/template-parts/content-front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/front-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/sidebar-lastnews.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/template-parts/content-spot.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/src/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/archive-spot.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/src/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/sidebar-lastnews.php" />
       </list>
     </option>
   </component>
@@ -216,7 +243,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583141930942</updated>
       <workItem from="1583141932214" duration="15808000" />
-      <workItem from="1583222104046" duration="18004000" />
+      <workItem from="1583222104046" duration="18551000" />
     </task>
     <task id="LOCAL-00001" summary="mise a jour">
       <created>1583161805276</created>
@@ -274,11 +301,25 @@
       <option name="project" value="LOCAL" />
       <updated>1583248938080</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="marqueur + correction police + retrait actus dans spots">
+      <created>1583250372622</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583250372622</updated>
+    </task>
+    <task id="LOCAL-00010" summary="erreur javascipt reorganisation carousel et map">
+      <created>1583250669616</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583250669616</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33812000" />
+    <option name="totallyTimeSpent" value="34359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1536" height="937" extended-state="6" />
@@ -338,7 +379,9 @@
     <MESSAGE value="affichage niveau par spot" />
     <MESSAGE value="affichage dans spots des information et acces" />
     <MESSAGE value="affichage de la carte" />
-    <option name="LAST_COMMIT_MESSAGE" value="affichage de la carte" />
+    <MESSAGE value="marqueur + correction police + retrait actus dans spots" />
+    <MESSAGE value="erreur javascipt reorganisation carousel et map" />
+    <option name="LAST_COMMIT_MESSAGE" value="erreur javascipt reorganisation carousel et map" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/gulpfile.babel.js">
@@ -447,16 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/singular.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#6#151#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/template-parts/content-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
@@ -495,23 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="e#407#529#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/sidebar-lastnews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/sidebar-spots.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -540,10 +556,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/archive-spot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-398">
+          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#8#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="387">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
             <element signature="e#0#6#0" expanded="true" />
@@ -551,20 +584,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/singular.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="78" lean-forward="true" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+        <state relative-caret-position="194">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <element signature="e#0#8#0" expanded="true" />
+            <element signature="e#6#151#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/archive-spot.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        <state relative-caret-position="1943">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/sidebar-lastnews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
         </state>
       </provider>
     </entry>
