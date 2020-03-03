@@ -97,7 +97,7 @@ add_filter('get_the_archive_title', function ($title) {
         $title = '<span class="vcard">' . get_the_author() . '</span>';
     } elseif (is_post_type_archive()) {
         if (get_post_type() == 'spot') {
-            $title = __('Les meilleurs spots de surf en Bretagne','startheme');
+            $title = __('Les meilleurs spots de surf en Bretagne', 'startheme');
         }
     } elseif (is_tax()) {
         $title = single_term_title('', false);
@@ -114,17 +114,27 @@ add_action( 'pre_get_posts', function ($query){
     if( is_admin() ) return;
     if( !$query->is_main_query() )return;
 
-    if ( is_post_type_archive('spot') && isset($_GET['niveau'])) {
-        $query->set( 'meta_key', 'niveau' );
-        $query->set( 'meta_query', array(
-            array(
-                'key'     => 'niveau',
-                'compare' => 'IN',
-                'value'   => $_GET['niveau']
-            )
-        ) );
+    if ( is_post_type_archive('spot')) {
+        if(isset($_GET['niveau'])) {
+            $query->set( 'meta_key', 'niveau' );
+            $query->set( 'meta_query', array(
+                array(
+                    'key'     => 'niveau',
+                    'compare' => 'IN',
+                    'value'   => $_GET['niveau']
+                )
+            ) );
+        }
+
+        if(isset($_GET['dep'])) {
+            $query->set( 'tax_query', array(
+                array(
+                    'taxonomy' => 'departement',
+                    'field'    => 'term_id',
+                    'terms'    => $_GET['dep']
+                )
+            ) );
+        }
     }
-
     return;
-
 } );
