@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="61b3c4be-c6fd-4cba-ae2c-5ffd76e8d9e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/startheme2020/template-parts/content-spot.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/startheme2020/template-parts/content-spot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/startheme2020/archive-spot.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/startheme2020/archive-spot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/startheme2020/dist/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/startheme2020/dist/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/startheme2020/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/startheme2020/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/startheme2020/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/startheme2020/src/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,19 +20,53 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/single-spot.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/template-parts/content-spot.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1856">
+              <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#header#0;n#article#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/template-parts/content-spot.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/archive-spot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+            <state relative-caret-position="409">
+              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/src/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding>
-                <element signature="n#style#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#!!top" />
+                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#6#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="78" lean-forward="true" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+              <folding>
+                <element signature="e#0#8#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,16 +92,16 @@
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/template-parts/content-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/singular.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/src/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/sidebar-spot.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/single-spot.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/sidebar-spots.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/template-parts/content-front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/sidebar-lastnews.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/archive-spot.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/template-parts/content-spot.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/src/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/startheme2020/archive-spot.php" />
       </list>
     </option>
   </component>
@@ -102,6 +139,31 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="startheme2020" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="breizhsurf0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="breizhsurf0" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="startheme2020" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="breizhsurf0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="breizhsurf0" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="startheme2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="breizhsurf0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="breizhsurf0" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="startheme2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="breizhsurf0" type="b2602c69:ProjectViewProjectNode" />
@@ -154,7 +216,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583141930942</updated>
       <workItem from="1583141932214" duration="15808000" />
-      <workItem from="1583222104046" duration="14617000" />
+      <workItem from="1583222104046" duration="18004000" />
     </task>
     <task id="LOCAL-00001" summary="mise a jour">
       <created>1583161805276</created>
@@ -198,17 +260,31 @@
       <option name="project" value="LOCAL" />
       <updated>1583245348572</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="affichage dans spots des information et acces">
+      <created>1583246249846</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583246249846</updated>
+    </task>
+    <task id="LOCAL-00008" summary="affichage de la carte">
+      <created>1583248938080</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583248938080</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30425000" />
+    <option name="totallyTimeSpent" value="33812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1536" height="937" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14658634" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -221,7 +297,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18579882" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18579882" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -260,7 +336,9 @@
     <MESSAGE value="filtre personnalisé sur les niveaux" />
     <MESSAGE value="filtre personnalisé sur les departements" />
     <MESSAGE value="affichage niveau par spot" />
-    <option name="LAST_COMMIT_MESSAGE" value="affichage niveau par spot" />
+    <MESSAGE value="affichage dans spots des information et acces" />
+    <MESSAGE value="affichage de la carte" />
+    <option name="LAST_COMMIT_MESSAGE" value="affichage de la carte" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/gulpfile.babel.js">
@@ -369,16 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/singular.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -454,10 +522,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/single-spot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/template-parts/content-spot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1856">
+          <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#article#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="174">
+          <caret line="6" column="78" lean-forward="true" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
           <folding>
             <element signature="e#0#8#0" expanded="true" />
           </folding>
@@ -466,26 +563,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/archive-spot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/single-spot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/startheme2020/template-parts/content-spot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="409">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>
